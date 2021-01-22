@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anjlab.android.iab.v3.sample2"
+4    android:versionCode="2"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+10
+11    <uses-permission android:name="com.android.vending.BILLING" />
+11-->[:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+11-->[:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+12
+13    <application
+13-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:5:5-19:19
+14        android:allowBackup="true"
+14-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:6:9-35
+15        android:debuggable="true"
+16        android:icon="@drawable/ic_launcher"
+16-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:7:9-45
+17        android:label="@string/app_name"
+17-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:8:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:9:9-40
+20        <activity
+20-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:10:9-18:20
+21            android:name="com.anjlab.android.iab.v3.sample2.MainActivity"
+21-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:11:13-41
+22            android:label="@string/app_name" >
+22-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:12:13-45
+23            <intent-filter>
+23-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:14:17-69
+24-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:16:17-77
+26-->/Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <meta-data
+30-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:13:9-15:37
+31            android:name="com.google.android.play.billingclient.version"
+31-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:14:13-73
+32            android:value="3.0.2" />
+32-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:15:13-34
+33
+34        <activity
+34-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:17:9-21:75
+35            android:name="com.android.billingclient.api.ProxyBillingActivity"
+35-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:18:13-78
+36            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+36-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:19:13-96
+37            android:exported="false"
+37-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:20:13-37
+38            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+38-->[com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:21:13-72
+39    </application>
+40
+41</manifest>

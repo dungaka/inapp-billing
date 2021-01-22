@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile project(':library')
+//    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        versionCode 2
+        versionName '1.0'
+        minSdkVersion 14
+        targetSdkVersion 30
+    }
+
+    sourceSets.main {
+        manifest.srcFile 'AndroidManifest.xml'
+        java.srcDir 'src'
+        resources.srcDir 'src'
+        res.srcDir 'res'
+    }
+
+    signingConfigs {
+        release
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    if (project.hasProperty('keyStoreFile')) {
+        android.signingConfigs.release.storeFile = file(keyStoreFile)
+    }
+
+    if (project.hasProperty('keyStorePassword')) {
+        android.signingConfigs.release.storePassword = keyStorePassword
+    }
+
+    if (project.hasProperty('keyStoreKeyAlias')) {
+        android.signingConfigs.release.keyAlias = keyStoreKeyAlias
+    }
+
+    if (project.hasProperty('keyStoreKeyPassword')) {
+        android.signingConfigs.release.keyPassword = keyStoreKeyPassword
+    }
+}

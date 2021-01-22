@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">In-app Billing v3 Sample</string>
+    <string name="wait">wait…</string>
+    <string name="title">Sample Activity #%d</string>
+
+</resources>

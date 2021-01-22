@@ -1,0 +1,19 @@
+com.anjlab.android.iab.v3.sample2
+drawable ic_launcher
+id acknowledgePurchaseButton
+id consumeButton
+id launchMoreButton
+id productDetailsButton
+id productIdTextView
+id purchaseButton
+id subsDetailsButton
+id subscribeButton
+id subscriptionIdTextView
+id titleTextView
+id updateSubscriptionsButton
+layout activity_main
+string app_name
+string title
+string wait
+style AppBaseTheme
+style AppTheme

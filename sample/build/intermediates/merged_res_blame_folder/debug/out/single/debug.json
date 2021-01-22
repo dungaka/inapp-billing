@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dungaka/Desktop/android-inapp-billing-v3/sample/build/intermediates/res/merged/debug/drawable-anydpi_ic_launcher.png.flat",
+        "source": "/Users/dungaka/Desktop/android-inapp-billing-v3/sample/res/drawable-anydpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dungaka/Desktop/android-inapp-billing-v3/sample/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/dungaka/Desktop/android-inapp-billing-v3/sample/res/layout/activity_main.xml"
+    }
+]

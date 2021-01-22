@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+MERGED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:5:5-19:19
+MERGED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-20
+MERGED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-20
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:12:5-22:19
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:12:5-22:19
+	android:label
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:7:9-45
+	android:allowBackup
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:9:9-40
+activity#com.anjlab.android.iab.v3.sample2.MainActivity
+ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:11:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+MERGED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		ADDED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+		INJECTED from /Users/dungaka/Desktop/android-inapp-billing-v3/sample/AndroidManifest.xml
+uses-permission#com.android.vending.BILLING
+ADDED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [:library] /Users/dungaka/Desktop/android-inapp-billing-v3/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/dungaka/.gradle/caches/transforms-2/files-2.1/2afa8e17061af2bbc6a0926fc3b684bb/jetified-billing-3.0.2/AndroidManifest.xml:18:13-78
